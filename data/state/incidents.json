@@ -1,0 +1,126 @@
+[
+  {
+    "id": "inc_ac1f2cd517",
+    "title": "Sensitive File Access",
+    "source_ip": "45.77.10.9",
+    "severity": "critical",
+    "status": "investigating",
+    "duration_minutes": 1,
+    "signals": 1,
+    "ai_explanation": "Access to a protected path from 45.77.10.9 may indicate privilege misuse or post-compromise discovery. Signals observed: 1.",
+    "timeline": [
+      {
+        "time": "2026-03-23T13:06:15.215291Z",
+        "event": "Sensitive access detected",
+        "status": "investigating"
+      }
+    ]
+  },
+  {
+    "id": "inc_c74e390e1e",
+    "title": "Sensitive File Access",
+    "source_ip": "192.0.2.55",
+    "severity": "critical",
+    "status": "investigating",
+    "duration_minutes": 1,
+    "signals": 1,
+    "ai_explanation": "Access to a protected path from 192.0.2.55 may indicate privilege misuse or post-compromise discovery. Signals observed: 1.",
+    "timeline": [
+      {
+        "time": "2026-03-23T13:06:15.215721Z",
+        "event": "Sensitive access detected",
+        "status": "investigating"
+      }
+    ]
+  },
+  {
+    "id": "inc_ac71098a8c",
+    "title": "SSH Brute Force",
+    "source_ip": "203.0.113.66",
+    "severity": "high",
+    "status": "contained",
+    "duration_minutes": 5,
+    "signals": 12,
+    "ai_explanation": "Multiple failed SSH authentication attempts from 203.0.113.66 suggest credential guessing or password spraying. Signals observed: 12.",
+    "timeline": [
+      {
+        "time": "2026-03-23T13:06:15.216853Z",
+        "event": "12 failed logins detected",
+        "status": "new"
+      },
+      {
+        "time": "2026-03-23T13:06:15.216867Z",
+        "event": "IP 203.0.113.66 auto-blocked",
+        "status": "contained"
+      }
+    ]
+  },
+  {
+    "id": "inc_a52cb05506",
+    "title": "Port Scan Reconnaissance",
+    "source_ip": "172.16.0.23",
+    "severity": "medium",
+    "status": "new",
+    "duration_minutes": 3,
+    "signals": 36,
+    "ai_explanation": "Sequential probing from 172.16.0.23 indicates reconnaissance activity against exposed services. Signals observed: 36.",
+    "timeline": [
+      {
+        "time": "2026-03-23T13:06:15.216948Z",
+        "event": "36 probed ports observed",
+        "status": "new"
+      }
+    ]
+  },
+  {
+    "id": "inc_af40bd8c4c",
+    "title": "Port Scan Reconnaissance",
+    "source_ip": "185.22.9.41",
+    "severity": "medium",
+    "status": "new",
+    "duration_minutes": 3,
+    "signals": 12,
+    "ai_explanation": "Sequential probing from 185.22.9.41 indicates reconnaissance activity against exposed services. Signals observed: 12.",
+    "timeline": [
+      {
+        "time": "2026-03-23T13:06:15.217008Z",
+        "event": "12 probed ports observed",
+        "status": "new"
+      }
+    ]
+  },
+  {
+    "id": "inc_53930ed5aa",
+    "title": "Port Scan Reconnaissance",
+    "source_ip": "45.77.10.9",
+    "severity": "medium",
+    "status": "new",
+    "duration_minutes": 3,
+    "signals": 12,
+    "ai_explanation": "Sequential probing from 45.77.10.9 indicates reconnaissance activity against exposed services. Signals observed: 12.",
+    "timeline": [
+      {
+        "time": "2026-03-23T13:06:15.217058Z",
+        "event": "12 probed ports observed",
+        "status": "new"
+      }
+    ]
+  },
+  {
+    "id": "inc_56b6f392f4",
+    "title": "Port Scan Reconnaissance",
+    "source_ip": "198.51.100.77",
+    "severity": "medium",
+    "status": "new",
+    "duration_minutes": 3,
+    "signals": 17,
+    "ai_explanation": "Sequential probing from 198.51.100.77 indicates reconnaissance activity against exposed services. Signals observed: 17.",
+    "timeline": [
+      {
+        "time": "2026-03-23T13:06:15.217129Z",
+        "event": "17 probed ports observed",
+        "status": "new"
+      }
+    ]
+  }
+]
