@@ -1,0 +1,90 @@
+[
+  {
+    "id": "alert_ac1f2cd517",
+    "timestamp": "2026-03-23T13:06:15.215291Z",
+    "source_ip": "45.77.10.9",
+    "event_type": "sensitive_access",
+    "severity": "critical",
+    "confidence": 97,
+    "description": "Access to a protected path from 45.77.10.9 may indicate privilege misuse or post-compromise discovery. Signals observed: 1.",
+    "recommendation": "Isolate the host, preserve logs, and validate file integrity immediately.",
+    "auto_action": "host_isolation_recommended"
+  },
+  {
+    "id": "alert_479d0c64ac",
+    "timestamp": "2026-03-23T13:06:15.215570Z",
+    "source_ip": "10.10.2.14",
+    "event_type": "anomaly",
+    "severity": "medium",
+    "confidence": 75,
+    "description": "Traffic or behavior anomaly from 10.10.2.14 crossed the defined operational baseline. Signals observed: 1.",
+    "recommendation": "Correlate with recent deployments and inspect upstream/downstream network behavior.",
+    "auto_action": null
+  },
+  {
+    "id": "alert_c74e390e1e",
+    "timestamp": "2026-03-23T13:06:15.215721Z",
+    "source_ip": "192.0.2.55",
+    "event_type": "sensitive_access",
+    "severity": "critical",
+    "confidence": 97,
+    "description": "Access to a protected path from 192.0.2.55 may indicate privilege misuse or post-compromise discovery. Signals observed: 1.",
+    "recommendation": "Isolate the host, preserve logs, and validate file integrity immediately.",
+    "auto_action": "host_isolation_recommended"
+  },
+  {
+    "id": "alert_ac71098a8c",
+    "timestamp": "2026-03-23T13:06:15.216762Z",
+    "source_ip": "203.0.113.66",
+    "event_type": "brute_force",
+    "severity": "high",
+    "confidence": 95,
+    "description": "Multiple failed SSH authentication attempts from 203.0.113.66 suggest credential guessing or password spraying. Signals observed: 12.",
+    "recommendation": "Block the source IP, rotate exposed credentials, and enable MFA or rate limiting.",
+    "auto_action": "blocked"
+  },
+  {
+    "id": "alert_a52cb05506",
+    "timestamp": "2026-03-23T13:06:15.216920Z",
+    "source_ip": "172.16.0.23",
+    "event_type": "port_scan",
+    "severity": "medium",
+    "confidence": 88,
+    "description": "Sequential probing from 172.16.0.23 indicates reconnaissance activity against exposed services. Signals observed: 36.",
+    "recommendation": "Block or tarpitted the source IP and review exposed services and firewall rules.",
+    "auto_action": null
+  },
+  {
+    "id": "alert_af40bd8c4c",
+    "timestamp": "2026-03-23T13:06:15.216982Z",
+    "source_ip": "185.22.9.41",
+    "event_type": "port_scan",
+    "severity": "medium",
+    "confidence": 88,
+    "description": "Sequential probing from 185.22.9.41 indicates reconnaissance activity against exposed services. Signals observed: 12.",
+    "recommendation": "Block or tarpitted the source IP and review exposed services and firewall rules.",
+    "auto_action": null
+  },
+  {
+    "id": "alert_53930ed5aa",
+    "timestamp": "2026-03-23T13:06:15.217037Z",
+    "source_ip": "45.77.10.9",
+    "event_type": "port_scan",
+    "severity": "medium",
+    "confidence": 88,
+    "description": "Sequential probing from 45.77.10.9 indicates reconnaissance activity against exposed services. Signals observed: 12.",
+    "recommendation": "Block or tarpitted the source IP and review exposed services and firewall rules.",
+    "auto_action": null
+  },
+  {
+    "id": "alert_56b6f392f4",
+    "timestamp": "2026-03-23T13:06:15.217108Z",
+    "source_ip": "198.51.100.77",
+    "event_type": "port_scan",
+    "severity": "medium",
+    "confidence": 88,
+    "description": "Sequential probing from 198.51.100.77 indicates reconnaissance activity against exposed services. Signals observed: 17.",
+    "recommendation": "Block or tarpitted the source IP and review exposed services and firewall rules.",
+    "auto_action": null
+  }
+]

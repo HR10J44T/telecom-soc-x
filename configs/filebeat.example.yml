@@ -1,0 +1,8 @@
+filebeat.inputs:
+  - type: filestream
+    id: telecom-soc-auth
+    paths:
+      - /var/log/auth.log
+      - /var/log/syslog
+output.elasticsearch:
+  hosts: ["http://localhost:9200"]
